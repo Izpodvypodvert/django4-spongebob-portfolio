@@ -1,0 +1,22 @@
+{% extends 'blog/base_blog.html' %}
+
+{% block content %}
+          <div class="card">
+            <img
+              src="{{ blog.image.url }}"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">{{blog.title}}</h5>
+              <p class="card-text">
+                  {{ blog.content|linebreaks }}
+              </p>
+              <a
+                href="{% url 'all_blogs' %}"
+                class="btn btn-primary"
+                >Back</a
+              >
+            </div>
+          </div>
+{% endblock %}

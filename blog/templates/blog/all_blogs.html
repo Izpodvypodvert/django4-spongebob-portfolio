@@ -1,0 +1,30 @@
+{% extends 'blog/base_blog.html' %}
+
+{% block content %}
+
+{% for blog in blogs %}
+<div class="card">
+    <h4>
+    {{ blog.date }}
+    </h4>
+    <img
+            src="{{ blog.image.url }}"
+            class="card-img-top"
+            alt="..."
+    />
+    <div class="card-body">
+        <h2 class="card-title">{{blog.title}}</h2>
+        <p class="card-text">
+            {{blog.description|truncatewords:12}}
+        </p>
+        <a
+            href="{% url 'detail' blog.id %}"
+            target="_self"
+            class="btn btn-primary">
+            Read more...
+        </a>
+    </div>
+</div>
+{% endfor %}
+
+{% endblock %}

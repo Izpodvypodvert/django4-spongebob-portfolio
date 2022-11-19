@@ -1,0 +1,39 @@
+.card {
+        font-size: 2em;
+        color: red;
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+        margin: 3em;
+        width: 60%;
+        position: relative;
+        top: 40px;
+        left: 200px;
+        background-color: rgba(0, 0, 0, 0.1)
+      }
+.card:hover {
+        background-color: rgba(0, 0, 0, 0.7);
+}
+.card img {
+        border-radius: 50%;
+        width: 50%;
+        margin: auto;
+}
+h1 {
+      text-align: center;
+      vertical-align: middle;
+    }
+
+body {
+    background-image: url(https://i.pinimg.com/originals/df/98/f5/df98f5b74e9ae64a9542d40dc0938a8b.jpg);
+    background-size: cover;
+}
+
+#superb{
+position:fixed;
+left: 90%;
+
+padding: 0.5em;
+font-size:1.2em;
+}
+
