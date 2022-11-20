@@ -1,14 +1,14 @@
 .card {
-        font-size: 2em;
+        font-size: 2rm;
         color: red;
         border-radius: 1em;
         text-align: center;
         padding: 1em;
-        margin: 3em;
+        margin:auto;
         width: 60%;
         position: relative;
         top: 40px;
-        left: 200px;
+        left: 0px;
         background-color: rgba(0, 0, 0, 0.1)
       }
 .card:hover {
@@ -31,9 +31,9 @@ body {
 
 #superb{
 position:fixed;
-left: 90%;
+left: 80%;
 
 padding: 0.5em;
-font-size:1.2em;
+font-size:1.2rm;
 }
 

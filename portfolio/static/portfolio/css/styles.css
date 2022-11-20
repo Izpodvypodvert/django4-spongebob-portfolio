@@ -22,9 +22,10 @@ body {
 }
 
 #superb{
-position:fixed;
-left: 90%;
-padding: 0.5em;
-font-size:1.2em;
+position:relative;
+left: 80%;
+margin-top: 5%;
+padding: 1rm;
+font-size:1.2rm;
 }
 
